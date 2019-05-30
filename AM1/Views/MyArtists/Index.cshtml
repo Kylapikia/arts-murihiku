@@ -1,0 +1,220 @@
+﻿@model IEnumerable<AM1.Models.MyArtist>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProfilePic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArtistDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Individual)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Organisation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreativeSpace)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Festival)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Paint)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Design)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Education)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Film)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Literacy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MixedMedia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MultiCultural)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Music)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pasifika)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photography)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PublicArt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sculpture)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Textiles)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Theatre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ToiMaori)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FacebookLink)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YoutubeLink)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WebsiteLink)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InstagramLink)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeviantArt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProfilePic)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ArtistDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Individual)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Organisation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreativeSpace)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Festival)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Paint)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Design)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Education)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Film)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Literacy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MixedMedia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MultiCultural)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Music)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pasifika)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Photography)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublicArt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sculpture)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Textiles)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Theatre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ToiMaori)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FacebookLink)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.YoutubeLink)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.WebsiteLink)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.InstagramLink)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeviantArt)
+                </td>
+                <br />
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MyArtistID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.MyArtistID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.MyArtistID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@foreach (var item in Model)
+{
+
+    <a asp-action="Edit" asp-route-id="@item.MyArtistID">Edit</a>
+    <a asp-action="Details" asp-route-id="@item.MyArtistID">Details</a>
+    <a asp-action="Delete" asp-route-id="@item.MyArtistID">Delete</a>
+}
+
+

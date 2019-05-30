@@ -1,0 +1,527 @@
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\## YEAR PROJECT ##\AM1\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\4.0AM1\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\4.0AM1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\4.0AM1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\4.0AM1\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.0AM1\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.0AM1\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\4.0AM1\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\4.0AM1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\4.0AM1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\4.0AM1\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.0AM1\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.0AM1 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\4.0AM1 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\4.0AM1 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\4.0AM1 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.0AM1 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.0AM1 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\4.0AM1 - Copy\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\4.0AM1 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\4.0AM1 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\4.0AM1 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.0AM1 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\11-8-18\Project\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\project\4.1Project\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\project\4.1Project\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\project\4.1Project\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\project\4.1Project\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\project\4.1Project\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\project\4.1Project\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\project\4.1Project\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\project\4.1Project\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\project\4.1Project\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\project\4.1Project\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\project\4.1Project\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.2Project\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\4.2Project\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\4.2Project\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\4.2Project\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.2Project\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.2Project\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\4.2Project\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\4.2Project\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\4.2Project\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\4.2Project\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.2Project\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.2Project\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\4.3Project\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\4.3Project\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\4.3Project\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\4.3Project\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.3Project\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.3Project\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\4.3Project\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\4.3Project\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\4.3Project\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\4.3Project\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\4.3Project\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.3Project\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.4Project\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\4.4Project\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\4.4Project\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\4.4Project\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.4Project\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.4Project\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\4.4Project\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\4.4Project\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\4.4Project\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\4.4Project\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\4.4Project\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.4Project\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.4Project - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.4WORKING\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\4.4WORKING\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\4.4WORKING\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\4.4WORKING\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.4WORKING\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.4WORKING\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\4.4WORKING\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\4.4WORKING\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\4.4WORKING\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\4.4WORKING\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\4.4WORKING\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.4WORKING\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\[H] 4.5\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\[H] 4.5\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\[H] 4.5\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\[H] 4.5\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\[H] 4.5\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\[H] 4.5\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\[H] 4.5\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\[H] 4.5\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\[H] 4.5\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\[H] 4.5\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\[H] 4.5\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.5\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\4.5\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\4.5\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\4.5\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.5\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.5\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\4.5\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\4.5\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\4.5\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\4.5\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.5\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Henri\Downloads\4.5 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\Henri\Downloads\4.5 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\Henri\Downloads\4.5 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\Henri\Downloads\4.5 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Henri\Downloads\4.5 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Henri\Downloads\4.5 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\Henri\Downloads\4.5 - Copy\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Henri\Downloads\4.5 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\Henri\Downloads\4.5 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\Henri\Downloads\4.5 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Henri\Downloads\4.5 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\4.5 - 1\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\sigma\Desktop\4.5 - 1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\sigma\Desktop\4.5 - 1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\sigma\Desktop\4.5 - 1\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\4.5 - 1\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\4.5 - 1\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\sigma\Desktop\4.5 - 1\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sigma\Desktop\4.5 - 1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\sigma\Desktop\4.5 - 1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\sigma\Desktop\4.5 - 1\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\4.5 - 1\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\4.6 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\sigma\Desktop\4.6 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\sigma\Desktop\4.6 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\sigma\Desktop\4.6 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\4.6 - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\4.6 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\sigma\Desktop\4.6 - Copy\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sigma\Desktop\4.6 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\sigma\Desktop\4.6 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\sigma\Desktop\4.6 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\4.6 - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\4.7 - Copy - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\sigma\Desktop\4.7 - Copy - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\sigma\Desktop\4.7 - Copy - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\sigma\Desktop\4.7 - Copy - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\4.7 - Copy - Copy\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\4.7 - Copy - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\sigma\Desktop\4.7 - Copy - Copy\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sigma\Desktop\4.7 - Copy - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\sigma\Desktop\4.7 - Copy - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\sigma\Desktop\4.7 - Copy - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\4.7 - Copy - Copy\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.8\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\4.8\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\4.8\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\4.8\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.8\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\4.8\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\4.8\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\4.8\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\4.8\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\4.8\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\4.8\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\4.8\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Downloads\5.1Update\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\sigma\Downloads\5.1Update\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\sigma\Downloads\5.1Update\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\sigma\Downloads\5.1Update\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Downloads\5.1Update\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Downloads\5.1Update\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\sigma\Downloads\5.1Update\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sigma\Downloads\5.1Update\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\sigma\Downloads\5.1Update\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\sigma\Downloads\5.1Update\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Downloads\5.1Update\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Henri\Downloads\5.3\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\Henri\Downloads\5.3\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\Henri\Downloads\5.3\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\Henri\Downloads\5.3\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Henri\Downloads\5.3\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Henri\Downloads\5.3\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\Henri\Downloads\5.3\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Henri\Downloads\5.3\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\Henri\Downloads\5.3\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\Henri\Downloads\5.3\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Henri\Downloads\5.3\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Henri\Downloads\5.3\AM1\obj\Debug\netcoreapp2.0\AM1.csprojResolveAssemblyReference.cache
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\5.5 Kyla Try\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\5.5 allowed to break\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\5.7 make heaps of copies\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Downloads\5.7\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\sigma\Downloads\5.7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\sigma\Downloads\5.7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\sigma\Downloads\5.7\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Downloads\5.7\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Downloads\5.7\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\sigma\Downloads\5.7\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\sigma\Downloads\5.7\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sigma\Downloads\5.7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\sigma\Downloads\5.7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\sigma\Downloads\5.7\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Downloads\5.7\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\5.8\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\5.8\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\5.8\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\5.8\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\5.8\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\5.8\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\5.8\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\5.8\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\5.8\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\5.8\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\5.8\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\5.8\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Downloads\5.9\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\sigma\Downloads\5.9\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\sigma\Downloads\5.9\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\sigma\Downloads\5.9\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Downloads\5.9\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Downloads\5.9\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\sigma\Downloads\5.9\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sigma\Downloads\5.9\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\sigma\Downloads\5.9\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\sigma\Downloads\5.9\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Downloads\5.9\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Henri\Downloads\5.9\6.0\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\Henri\Downloads\5.9\6.0\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\Henri\Downloads\5.9\6.0\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\Henri\Downloads\5.9\6.0\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Henri\Downloads\5.9\6.0\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Henri\Downloads\5.9\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\Henri\Downloads\5.9\6.0\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Henri\Downloads\5.9\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\Henri\Downloads\5.9\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\Henri\Downloads\5.9\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Henri\Downloads\5.9\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Henri\Downloads\5.9\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.csprojResolveAssemblyReference.cache
+C:\Users\Holly\Desktop\6.0\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\Holly\Desktop\6.0\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\Holly\Desktop\6.0\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\Holly\Desktop\6.0\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Holly\Desktop\6.0\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Holly\Desktop\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\Holly\Desktop\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\Holly\Desktop\6.0\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Holly\Desktop\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\Holly\Desktop\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\Holly\Desktop\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Holly\Desktop\6.0\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.csprojResolveAssemblyReference.cache
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\pcgg\Desktop\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.csprojResolveAssemblyReference.cache
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\pcgg\Desktop\6.2\6.1\6.1\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Project\6.2\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Project\6.2\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Project\6.2\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Project\6.2\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Project\6.2\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Project\6.2\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Project\6.2\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Project\6.2\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Project\6.2\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Project\6.2\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Project\6.2\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\pcgg\Downloads\6.4\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\pcgg\Downloads\6.4\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\pcgg\Downloads\6.4\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\pcgg\Downloads\6.4\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\pcgg\Downloads\6.4\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\pcgg\Downloads\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.csprojResolveAssemblyReference.cache
+C:\Users\pcgg\Downloads\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\pcgg\Downloads\6.4\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\pcgg\Downloads\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\pcgg\Downloads\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\pcgg\Downloads\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\pcgg\Downloads\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\6.5\6.4\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\6.5\6.4\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\6.5\6.4\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\6.5\6.4\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\6.5\6.4\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\6.5\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\6.5\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\6.5\6.4\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\6.5\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\6.5\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\6.5\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\6.5\6.4\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\obj\Debug\netcoreapp2.0\AM1.csprojResolveAssemblyReference.cache
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Henri\Documents\- WORKKKK\6.7\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Adrian\Documents\Tugas Henri\6.7\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\Adrian\Documents\Tugas Henri\6.7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\Adrian\Documents\Tugas Henri\6.7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\Adrian\Documents\Tugas Henri\6.7\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Adrian\Documents\Tugas Henri\6.7\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\Adrian\Documents\Tugas Henri\6.7\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\Adrian\Documents\Tugas Henri\6.7\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Adrian\Documents\Tugas Henri\6.7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\Adrian\Documents\Tugas Henri\6.7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\Adrian\Documents\Tugas Henri\6.7\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\Adrian\Documents\Tugas Henri\6.7\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\6.8\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\sigma\Desktop\6.8\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\sigma\Desktop\6.8\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\sigma\Desktop\6.8\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\6.8\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\sigma\Desktop\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\sigma\Desktop\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sigma\Desktop\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\sigma\Desktop\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\sigma\Desktop\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\X\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\7\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\7\6.8\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\New folder\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\New folder\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\New folder\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\7\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\7\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\7\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\7\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\7\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\7\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\7\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\7\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\7\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\sigma\Desktop\7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\sigma\Desktop\7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\sigma\Desktop\7\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\7\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Desktop\7\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\sigma\Desktop\7\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sigma\Desktop\7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\sigma\Desktop\7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\sigma\Desktop\7\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Desktop\7\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+G:\151515\7\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+G:\151515\7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+G:\151515\7\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+G:\151515\7\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+G:\151515\7\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+G:\151515\7\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+G:\151515\7\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+G:\151515\7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+G:\151515\7\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+G:\151515\7\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+G:\151515\7\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+G:\151515\7\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\pcgg\Downloads\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\pcgg\Downloads\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\pcgg\Downloads\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\pcgg\Downloads\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\pcgg\Downloads\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\pcgg\Downloads\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.csprojResolveAssemblyReference.cache
+C:\Users\pcgg\Downloads\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\pcgg\Downloads\7.2\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\pcgg\Downloads\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\pcgg\Downloads\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\pcgg\Downloads\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\pcgg\Downloads\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Documents\From_Sols_11-10-2018\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\sigma\Documents\From_Sols_11-10-2018\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\sigma\Documents\From_Sols_11-10-2018\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\sigma\Documents\From_Sols_11-10-2018\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Documents\From_Sols_11-10-2018\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\sigma\Documents\From_Sols_11-10-2018\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\sigma\Documents\From_Sols_11-10-2018\7.2\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\sigma\Documents\From_Sols_11-10-2018\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\sigma\Documents\From_Sols_11-10-2018\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\sigma\Documents\From_Sols_11-10-2018\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\sigma\Documents\From_Sols_11-10-2018\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\8\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+C:\Users\algo\Desktop\8\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+C:\Users\algo\Desktop\8\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+C:\Users\algo\Desktop\8\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\8\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+C:\Users\algo\Desktop\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+C:\Users\algo\Desktop\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+C:\Users\algo\Desktop\8\7.2\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\algo\Desktop\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+C:\Users\algo\Desktop\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+C:\Users\algo\Desktop\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+C:\Users\algo\Desktop\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.pdb
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.deps.json
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.json
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.runtimeconfig.dev.json
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.dll
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\bin\Debug\netcoreapp2.0\AM1.pdb
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.csprojAssemblyReference.cache
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.csproj.CoreCompileInputs.cache
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfoInputs.cache
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.AssemblyInfo.cs
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.dll
+F:\Study\IT Year 3\3 IT701 Project\Project\8\7.2\AM1\obj\Debug\netcoreapp2.0\AM1.pdb

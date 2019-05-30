@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "SiteMap";
+}<br />
+<div class="translucy Paddy">
+    <h2>Site Map</h2>
+
+    <p>
+        <a asp-area="" asp-controller="Home" asp-action="Index">Introduction</a> <br />
+        |<br />
+        |--<a asp-area="" asp-controller="ArtistDirectories" asp-action="Index">Artist Directory</a> <br />
+        |<br />
+        |--<a asp-area="" asp-controller="Home" asp-action="About">Events</a><br />
+        |<br />
+        |--<a asp-area="" asp-controller="Home" asp-action="About">Artist Trail</a><br />
+        |<br />
+        |--<strong> ≡</strong><br />
+        |&nbsp;&nbsp;&nbsp;&nbsp;|..................<a asp-area="" asp-controller="Home" asp-action="Index">Introduction</a><br />
+        |&nbsp;&nbsp;&nbsp;&nbsp;|..................<a asp-area="" asp-controller="Home" asp-action="About">About</a><br />
+        |&nbsp;&nbsp;&nbsp;&nbsp;|..................<a asp-area="" asp-controller="Home" asp-action="Team">Meet the team</a><br />
+        |&nbsp;&nbsp;&nbsp;&nbsp;|..................<a asp-area="" asp-controller="Blogs" asp-action="Index">Blog</a><br />
+        |&nbsp;&nbsp;&nbsp;&nbsp;|..................<a asp-area="" asp-controller="VolForms" asp-action="Index">Volunteer</a>    <br />    
+        |&nbsp;&nbsp;&nbsp;&nbsp;|..................<a asp-area="" asp-controller="Home" asp-action="Contact">Contact us</a><br />
+        |<br />
+        |--<a asp-area="" asp-controller="Home" asp-action="Contact">Contact us</a>--<a asp-area="" asp-controller="Home" asp-action="PrivacyPolicy">Privacy Policy</a>--<a asp-area="" asp-controller="Home" asp-action="TermsOfUse">Terms of Use</a> <br />
+        <br />
+
+
+
+
+
+        
+        
+    </p><br />
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+
+</script>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }</script>

@@ -1,0 +1,144 @@
+﻿@model AM1.Models.GMapModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>GMapModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Lat)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lat)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Lng)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lng)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GDisciplines)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GDisciplines)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GAddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GAddress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GLinkProfile)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GLinkProfile)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GProfilePic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GProfilePic)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MondayOpen)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MondayOpen)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MondayClose)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MondayClose)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TuesdayOpen)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TuesdayOpen)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TuesdayClose)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TuesdayClose)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.WednesdayOpen)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.WednesdayOpen)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.WednesdayClose)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.WednesdayClose)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ThursdayOpen)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ThursdayOpen)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ThursdayClose)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ThursdayClose)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FridayOpen)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FridayOpen)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FridayClose)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FridayClose)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SaturdayOpen)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SaturdayOpen)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SaturdayClose)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SaturdayClose)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SundayOpen)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SundayOpen)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SundayClose)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SundayClose)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.GMapID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

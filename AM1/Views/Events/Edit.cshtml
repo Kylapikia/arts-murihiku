@@ -1,0 +1,111 @@
+﻿@model AM1.Models.Event
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Event</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="EventID" />
+            <div class="form-group">
+                <label asp-for="EventName" class="control-label"></label>
+                <input asp-for="EventName" class="form-control" />
+                <span asp-validation-for="EventName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartEventDate" class="control-label"></label>
+                <input asp-for="StartEventDate" class="form-control" />
+                <span asp-validation-for="StartEventDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinishEventDate" class="control-label"></label>
+                <input asp-for="FinishEventDate" class="form-control" />
+                <span asp-validation-for="FinishEventDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventDescription" class="control-label"></label>
+                <input asp-for="EventDescription" class="form-control" />
+                <span asp-validation-for="EventDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventCategory" class="control-label"></label>
+                <input asp-for="EventCategory" class="form-control" />
+                <span asp-validation-for="EventCategory" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EventPicture" class="control-label"></label>
+                <input type="file" name="pic" value="" accept="image/png, image/jpeg" />
+                <img src="@ViewData["fileLocation"]">
+                <input asp-for="EventPicture" class="form-control" type="hidden" />
+                <span asp-validation-for="EventPicture" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Location" class="control-label"></label>
+                <input asp-for="Location" class="form-control addy-line1" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Suburb" class="control-label"></label>
+                <input asp-for="Suburb" class="form-control addy-suburb" readonly />
+                <span asp-validation-for="Suburb" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                <input asp-for="City" class="form-control addy-city" readonly />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PostCode" class="control-label"></label>
+                <input asp-for="PostCode" class="form-control addy-postcode" readonly />
+                <span asp-validation-for="PostCode " class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Free" class="control-label"></label>
+                <input asp-for="Free" />
+                <span asp-validation-for="Free" class="text-danger"></span>
+            </div>
+
+            @*<div class="form-group">
+                <label asp-for="ThemeColour" class="control-label"></label>
+                <input asp-for="ThemeColour" class="form-control" />
+                <span asp-validation-for="ThemeColour" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="FullDay" /> @Html.DisplayNameFor(model => model.FullDay)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script src="https://cdn.addy.co.nz/neatcomplete/2.1.0/addycomplete.min.js?key=7f210f2e1c6244ac92519293730d8a7d&loadcss=true" async defer></script>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

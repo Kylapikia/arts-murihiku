@@ -1,0 +1,17 @@
+﻿@model AM1.Models.Photos
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <div class="container">
+        <a href='javascript:history.go(-1)' style="width:11%; float:left;"><h2 style="border:solid; padding:10px;  text-align:center;">Return</h2></a>
+        <a href="/Photos/Delete/@Model.PhotoID" style="float:right;width:11%;"><h2 style="border:solid; padding:10px;  text-align:center;">Delete</h2></a>
+    </div>
+
+    <hr />
+    <div class="container" style="text-align:center;">
+        <img src="@Html.DisplayFor(model => model.FileFullPath)" alt="@Html.DisplayFor(model => model.FileFullPath)" />
+    </div>
+</div>

@@ -1,0 +1,93 @@
+﻿@model AM1.Models.Blog
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Blog";
+}
+
+
+<div class="Yeller noPad">
+    <br />
+    <h4 class="text-center Yeller">BLOG</h4>
+    <br />
+</div>
+<div class="col-md-offset-3 NavText">
+    <a asp-action="Index"><span class="glyphicon glyphicon-arrow-left"></span> Back to Blog</a>
+</div>
+<br />
+<div class="row col-md-offset-4">
+    <div class="col-md-6">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Author" class="control-label"></label>
+                <input asp-for="Author" class="form-control" />
+                <span asp-validation-for="Author" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="BlogPost" class="control-label"></label>
+                <textarea asp-for="BlogPost" rows="8" class="form-control"></textarea>
+                <span asp-validation-for="BlogPost" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Category" class="control-label"></label>
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    <select id="Category" name="Category" class="form-control">
+                        <option></option>
+                        <option value="In the media">In the media</option>
+                        <option value="Guest blog">Guest blog</option>
+                        <option value="Other">Other</option>
+                    </select>
+                }
+                else
+                {
+                    <select id="Category" name="Category" class="form-control">
+                        <option></option>
+                        <option value="Guest blog">Guest blog</option>
+                    </select>
+                }
+                <span asp-validation-for="Category" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BlogPic" class="control-label"></label>
+                <input type="file" name="pic" />
+                <img src="@ViewData["fileLocation"]">
+                @*<input asp-for="BlogPic" class="form-control" />
+                    <span asp-validation-for="BlogPic" class="text-danger"></span>*@
+                <div cols="60" class="g-recaptcha" data-sitekey="6LfojmwUAAAAAJE__lWaMOZ0_7zcD_khEOTx4_nv"></div><br />
+                <label id="capcha"></label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="http://code.jquery.com/jquery-1.5.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=renderRecaptcha&render=explicit" async defer></script>
+<script>
+    $("form").submit(function (event) {
+        var message = "Please check the recaptcha before sending";
+        var recaptcha = $("#g-recaptcha-response").val();
+        if (recaptcha === "") {
+            event.preventDefault();
+            jQuery(capcha).html(message).css('color', 'red');
+        }
+    });</script>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

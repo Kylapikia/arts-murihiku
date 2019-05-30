@@ -1,0 +1,221 @@
+﻿@model AM1.Models.MyArtist
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>MyArtist</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserID" class="control-label"></label>
+                <input asp-for="UserID" class="form-control" />
+                <span asp-validation-for="UserID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProfilePic" class="control-label"></label>
+                <input asp-for="ProfilePic" class="form-control" />
+                <span asp-validation-for="ProfilePic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ArtistDescription" class="control-label"></label>
+                <input asp-for="ArtistDescription" class="form-control" />
+                <span asp-validation-for="ArtistDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Individual" /> @Html.DisplayNameFor(model => model.Individual)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Organisation" /> @Html.DisplayNameFor(model => model.Organisation)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="CreativeSpace" /> @Html.DisplayNameFor(model => model.CreativeSpace)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Festival" /> @Html.DisplayNameFor(model => model.Festival)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Paint" /> @Html.DisplayNameFor(model => model.Paint)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Design" /> @Html.DisplayNameFor(model => model.Design)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Education" /> @Html.DisplayNameFor(model => model.Education)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Film" /> @Html.DisplayNameFor(model => model.Film)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Literacy" /> @Html.DisplayNameFor(model => model.Literacy)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="MixedMedia" /> @Html.DisplayNameFor(model => model.MixedMedia)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="MultiCultural" /> @Html.DisplayNameFor(model => model.MultiCultural)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Music" /> @Html.DisplayNameFor(model => model.Music)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Pasifika" /> @Html.DisplayNameFor(model => model.Pasifika)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Photography" /> @Html.DisplayNameFor(model => model.Photography)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="PublicArt" /> @Html.DisplayNameFor(model => model.PublicArt)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Sculpture" /> @Html.DisplayNameFor(model => model.Sculpture)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Textiles" /> @Html.DisplayNameFor(model => model.Textiles)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Theatre" /> @Html.DisplayNameFor(model => model.Theatre)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="ToiMaori" /> @Html.DisplayNameFor(model => model.ToiMaori)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="FacebookLink" class="control-label"></label>
+                <input asp-for="FacebookLink" class="form-control" />
+                <span asp-validation-for="FacebookLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="YoutubeLink" class="control-label"></label>
+                <input asp-for="YoutubeLink" class="form-control" />
+                <span asp-validation-for="YoutubeLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WebsiteLink" class="control-label"></label>
+                <input asp-for="WebsiteLink" class="form-control" />
+                <span asp-validation-for="WebsiteLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InstagramLink" class="control-label"></label>
+                <input asp-for="InstagramLink" class="form-control" />
+                <span asp-validation-for="InstagramLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DeviantArt" class="control-label"></label>
+                <input asp-for="DeviantArt" class="form-control" />
+                <span asp-validation-for="DeviantArt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

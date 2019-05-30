@@ -1,0 +1,106 @@
+﻿<link href="~/css/Rego.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_LayoutReg.cshtml";
+
+}
+
+@*<h2>@ViewData["Title"]</h2>*@
+<div class="box">
+    <div class="row">
+        @*<div class="col-md-4">*@
+        <form asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions'); return false; }">
+            <h1 align="center">Welcome please make an account</h1>
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+
+                @*<label asp-for="Name"></label>*@
+                <input asp-for="Name" class="form-control" placeholder="Name or Organisation" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<label asp-for="EmailAddress"></label>*@
+                <input asp-for="EmailAddress" class="form-control" placeholder="Email Address" />
+                <span asp-validation-for="EmailAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<label asp-for="Password"></label>*@
+                <input asp-for="Password" class="form-control" placeholder="Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<label asp-for="PasswordConfirm"></label>*@
+                <input asp-for="PasswordConfirm" class="form-control" placeholder="Confirm Password" />
+                <span asp-validation-for="PasswordConfirm" class="text-danger"></span>
+            </div>
+            <div cols="60" class="g-recaptcha" data-sitekey="6LfojmwUAAAAAJE__lWaMOZ0_7zcD_khEOTx4_nv"></div><br />
+            <label id="capcha"></label><br /><input type="checkbox" name="checkbox" value="check" id="agree" /> I agree to Arts Murihikus'  <a class="w3-text-blue" href="#" data-toggle="modal" data-target="#MyModal">Terms and Conditions</a>
+            <div id="MyModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-body">
+                                <h1>Arts Murihiku Terms and Conditions</h1><br />
+                                <p>
+                                    i. Arts Murihiku reserves the right to remove users if they display a constant disrepect for people on the site or continuously post obscene material.
+
+                                    <br /> <br />  ii. Arts Murihiku is not responsible for arranging events of artists but merely for display.
+
+                                    <br /> <br />  iii. Arts Murihiku does not encourage prejudice or extremism and all such posts are discouraged and will be reomved
+
+                                    <br />    <br /> vi. Arts Murihiku can not service artists and will not allow events outside of Southland, Queenstown, Glenorchy, Arrowtown, Tapanui and Heriot areas.
+
+                                    <br />  <br /> vii. Arts Murihiku does not guarantee a timeframe for reply to contact. It will be within 3 working days depending on volume of pre-existing contacts send and the situation at hand.
+                                </p>
+                            </div>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br />
+            @*<div class="form-group" hidden>
+            <input asp-for="Artist" checked class="form-control" />
+        </div>*@
+            <div class="button1">
+                <button type="submit" class="w3-button w3-yellow">Register</button>
+            </div>
+        </form>
+        <br /><br /><br />
+    </div>
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="http://code.jquery.com/jquery-1.5.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=renderRecaptcha&render=explicit" async defer></script>
+<script>
+    $("form").submit(function (event) {
+        var message = "Please check the recaptcha before sending";
+        var recaptcha = $("#g-recaptcha-response").val();
+        if (recaptcha === "") {
+            event.preventDefault();
+            jQuery(capcha).html(message).css('color', 'red');
+        }
+    });</script>
+@*<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }</script>
+*@
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

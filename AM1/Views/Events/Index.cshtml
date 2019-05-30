@@ -1,0 +1,100 @@
+﻿@model IEnumerable<AM1.Models.Event>
+
+@{
+    ViewData["Title"] = "Events";
+}
+
+<div class="Yeller noPad">
+    <br />
+    <h4 class="text-center Yeller">EVENTS</h4>
+    <br />
+</div>
+
+<hr />
+
+<div class="col-md-3">
+
+    <form asp-controller="Events" asp-action="Index">
+        <p>
+            Refine
+            <hr />
+            <div class="form-group">
+                <input type="text" name="byname" placeholder="Search by name">
+            </div>
+
+            <div class="form-group">
+                Sort by:<br>
+                <select name="sortingmode" class="form-control">
+                    <option></option>
+                    <option value="asc">A-Z</option>
+                    <option value="desc">Z-A</option>
+                    <option value="free">Free</option>
+                    <option value="old">Oldest</option>
+                    <option value="new">Latest</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                Category <br />
+                <select name="category" class="form-control">
+                    <option></option>
+                    <option value="Artist talk">Artist talk</option>
+                    <option value="Concert">Concert</option>
+                    <option value="Exhibition">Exhibition</option>
+                    <option value="Fashion">Fashion</option>
+                    <option value="Film">Film</option>
+                    <option value="Gallery opening">Gallery opening</option>
+                    <option value="Music">Music</option>
+                    <option value="Workshop">Workshop</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                Location: <br />
+                <select name="bylocation" class="form-control">
+                    <option></option>
+                    <option value="Invercargill">Invercargill</option>
+                    <option value="Bluff">Bluff</option>
+                    <option value="Te Anau">Te Anau</option>
+                    <option value="Queenstown">Queenstown</option>
+                    <option value="Arrowtown">Arrowtown</option>
+                    <option value="Mataura">Mataura</option>
+                    <option value="Mossburn">Mossburn</option>
+                    <option value="Riverton">Riverton</option>
+                    <option value="Nightcaps">Nightcaps</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <a href="/Calendar" class="btn btn-info">Go to Calendar</a>
+            </div>
+            <input type="submit" value="Filter" class="w3-btn w3-ripple w3-teal" />
+        </p>
+    </form>
+
+</div>
+<div class="col-md-9" style="">
+
+    <p style="text-align:right;">
+        <a class="pull-left NavText" asp-action="Create"><span class="glyphicon glyphicon-plus"></span>Add Event</a>
+    </p><br />
+    @foreach (var item in Model)
+    {
+        <a asp-action="Details" asp-route-id="@item.EventID" style="text-decoration:none; color:black;">
+            <div class="col-md-3" style="border:none; height: 300px; margin: 4%;">
+                <p style="text-align:center;"><img src="@item.EventPicture" height="150" width="150"></p>
+                <p class="noOverlap">@string.Format("{0:dd MMMM yyyy}", item.StartEventDate)</p>
+                <p class="noOverlap">@Html.DisplayFor(modelItem => item.EventName)</p>
+                <p class="noOverlap">@Html.DisplayFor(modelItem => item.EventDescription)</p>
+            </div>
+        </a>
+
+    }
+
+</div>
+
+@*
+        <a asp-action="Edit" asp-route-id="@item.EventID">Edit</a>
+    <a asp-action="Details" asp-route-id="@item.EventID">Details</a>
+    <a asp-action="Delete" asp-route-id="@item.EventID">Delete</a>
+*@

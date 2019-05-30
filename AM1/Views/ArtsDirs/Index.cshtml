@@ -1,0 +1,161 @@
+﻿@model IEnumerable<AM1.Models.ArtsDir>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Picture1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Picture2)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Picture3)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Picture4)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Picture5)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ArtName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ProfileLink)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Paint)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Design)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Education)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Film)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Literacy)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MixedMedia)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MultiCultural)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Music)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Pasifika)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Photography)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PublicArt)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Sculpture)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Textiles)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Theatre)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Picture1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Picture2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Picture3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Picture4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Picture5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArtName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProfileLink)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Paint)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Design)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Education)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Film)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Literacy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MixedMedia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MultiCultural)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Music)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pasifika)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Photography)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublicArt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sculpture)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Textiles)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Theatre)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ArtsDirID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ArtsDirID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ArtsDirID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,307 @@
+﻿@model AM1.Models.VolForm
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>VolForm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="VolFormID" />
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HomeAddress" class="control-label"></label>
+                <input asp-for="HomeAddress" class="form-control" />
+                <span asp-validation-for="HomeAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailAddress" class="control-label"></label>
+                <input asp-for="EmailAddress" class="form-control" />
+                <span asp-validation-for="EmailAddress" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+            <label asp-for="RefOne" class="control-label"></label>
+            <input asp-for="RefOne" class="form-control" />
+            <span asp-validation-for="RefOne" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="RefOneContact" class="control-label"></label>
+            <input asp-for="RefOneContact" class="form-control" />
+            <span asp-validation-for="RefOneContact" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="RefTwo" class="control-label"></label>
+            <input asp-for="RefTwo" class="form-control" />
+            <span asp-validation-for="RefTwo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="RefTwoContact" class="control-label"></label>
+            <input asp-for="RefTwoContact" class="form-control" />
+            <span asp-validation-for="RefTwoContact" class="text-danger"></span>
+        </div>*@
+            
+            <div class="form-group">
+                <label asp-for="ContactMethod" class="control-label"></label>
+                @*<input asp-for="ContactMethod" class="form-control" />*@
+                <select asp-for="ContactMethod" class="form-control">
+                    <option value="Phone">Phone</option>
+                    <option value="Text">Text</option>
+                    <option value="Email">Email</option>
+                </select>
+                <span asp-validation-for="ContactMethod" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PreviousExperience" class="control-label"></label>
+                <textarea asp-for="PreviousExperience" class="form-control"></textarea>
+                <span asp-validation-for="PreviousExperience" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="radio">
+                    <label>
+                        <input asp-for="FirstAidCertificate" /> @Html.DisplayNameFor(model => model.FirstAidCertificate)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="PoliceVetCheck" /> @Html.DisplayNameFor(model => model.PoliceVetCheck)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="TermsAndConditions" /> @Html.DisplayNameFor(model => model.TermsAndConditions)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Lighting" /> @Html.DisplayNameFor(model => model.Lighting)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Sound" /> @Html.DisplayNameFor(model => model.Sound)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="SetBuilding" /> @Html.DisplayNameFor(model => model.SetBuilding)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="MakeUp" /> @Html.DisplayNameFor(model => model.MakeUp)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Hair" /> @Html.DisplayNameFor(model => model.Hair)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Costuming" /> @Html.DisplayNameFor(model => model.Costuming)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Props" /> @Html.DisplayNameFor(model => model.Props)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="StageManagement" /> @Html.DisplayNameFor(model => model.StageManagement)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Prompt" /> @Html.DisplayNameFor(model => model.Prompt)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="FrontOfHouse" /> @Html.DisplayNameFor(model => model.FrontOfHouse)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Catering" /> @Html.DisplayNameFor(model => model.Catering)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="PublicityAndPromotion" /> @Html.DisplayNameFor(model => model.PublicityAndPromotion)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AssistanceVisitors" /> @Html.DisplayNameFor(model => model.AssistanceVisitors)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AssistanceExhibitionsGen" /> @Html.DisplayNameFor(model => model.AssistanceExhibitionsGen)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AssistanceWorkshops" /> @Html.DisplayNameFor(model => model.AssistanceWorkshops)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="PublicityAndPromotion1" /> @Html.DisplayNameFor(model => model.PublicityAndPromotion1)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="SupportOpenings" /> @Html.DisplayNameFor(model => model.SupportOpenings)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AssistanceVisitors1" /> @Html.DisplayNameFor(model => model.AssistanceVisitors1)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AssistanceExhibitionsGen1" /> @Html.DisplayNameFor(model => model.AssistanceExhibitionsGen1)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="PublicityAndPromotion2" /> @Html.DisplayNameFor(model => model.PublicityAndPromotion2)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="SupportOpenings1" /> @Html.DisplayNameFor(model => model.SupportOpenings1)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AssistanceWorkshops1" /> @Html.DisplayNameFor(model => model.AssistanceWorkshops1)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="WebsiteDevelopment" /> @Html.DisplayNameFor(model => model.WebsiteDevelopment)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Instagram" /> @Html.DisplayNameFor(model => model.Instagram)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="SnapChat" /> @Html.DisplayNameFor(model => model.SnapChat)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Facebook" /> @Html.DisplayNameFor(model => model.Facebook)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Twitter" /> @Html.DisplayNameFor(model => model.Twitter)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="AppDevelopment" /> @Html.DisplayNameFor(model => model.AppDevelopment)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

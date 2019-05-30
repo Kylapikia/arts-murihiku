@@ -1,0 +1,204 @@
+﻿@model AM1.Models.MyArtist
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MyArtist</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UserID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProfilePic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProfilePic)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ArtistDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ArtistDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Individual)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Individual)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Organisation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Organisation)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CreativeSpace)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreativeSpace)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Festival)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Festival)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Paint)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Paint)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Design)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Design)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Education)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Education)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Film)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Film)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Literacy)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Literacy)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MixedMedia)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MixedMedia)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MultiCultural)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MultiCultural)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Music)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Music)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Pasifika)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pasifika)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Photography)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Photography)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PublicArt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PublicArt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sculpture)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sculpture)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Textiles)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Textiles)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Theatre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Theatre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ToiMaori)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ToiMaori)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FacebookLink)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FacebookLink)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.YoutubeLink)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.YoutubeLink)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.WebsiteLink)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.WebsiteLink)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.InstagramLink)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.InstagramLink)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DeviantArt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DeviantArt)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.MyArtistID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

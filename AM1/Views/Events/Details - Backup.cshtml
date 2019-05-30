@@ -1,0 +1,88 @@
+﻿@model AM1.Models.Event
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Event</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EventName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EventName)
+        </dd>
+        @if (Model.FullDay == true)
+        {
+            <dt>
+                @Html.DisplayNameFor(model => model.FullDay)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.FullDay)
+            </dd>
+        }
+        else
+        {
+            <dt>
+                @Html.DisplayNameFor(model => model.StartEventDate)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.StartEventDate)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.FinishEventDate)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.FinishEventDate)
+            </dd>
+        }
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EventDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EventDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EventCategory)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EventCategory)
+        </dd>
+        <!--
+        <dt>
+            @Html.DisplayNameFor(model => model.EventPicture)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EventPicture)
+        </dd>
+            -->
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ThemeColour)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ThemeColour)
+        </dd>
+        <dt>
+            Image
+        </dt>
+        <dd>
+            <img src="@Html.DisplayFor(model=>model.EventPicture)">
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.EventID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

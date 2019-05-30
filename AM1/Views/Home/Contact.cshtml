@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Contact Us";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+<div class="Yeller noPad">
+    <br />
+    <h4 class="text-center Yeller">CONTACT US</h4>
+    <br />
+</div>
+<br />
+<div class="container">
+   
+    <div class="col-md-7">
+       <br /><br /> <strong>
+
+            &nbsp; &nbsp; &nbsp; Community Trust of Southland,<br>
+            &nbsp; &nbsp; &nbsp; 62 Don Street, Invercargill 9840 <br>
+            &nbsp; &nbsp; &nbsp; PO Box 1646, Invercargill, 9840 <br><br />
+            <p>&nbsp; &nbsp; &nbsp; Phone: <a href="tel:+64 21 055 6674">+64 21 055 6674</a></p>
+        </strong>
+
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=62%20Don%20Street%2C%20Invercargill%209840&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+
+        </div>
+        <br>
+
+
+        <br />
+        <br />
+    </div>
+    <div>
+        <form action="" method="" class="col-md-5">
+            <h2>We'd like to hear from you</h2><br /><br />
+            <label>Name:</label>&nbsp; &nbsp;&nbsp;&nbsp;<input required id="Name" type="text" maxlength="50" /><br /><br />
+            <label>Email:</label>&nbsp;&nbsp; &nbsp;&nbsp;<input required id="E-mail" type="text" maxlength="50" /><br /><br />
+            <label>Subject:</label> &nbsp;<input required id="Subject" type="text" maxlength="50" /><br /><br />
+            <label>Message:</label><br />
+            <textarea required id="TextArea1" onkeyup="countChar(this)" rows="5" cols="60" maxlength="1000"></textarea><br />
+            <div id="charNums"></div><div id="charNum"></div><br />
+            <div cols="60" class="g-recaptcha" data-sitekey="6LfojmwUAAAAAJE__lWaMOZ0_7zcD_khEOTx4_nv"></div><br />
+            <label id="capcha"></label><br />
+            <input id="Submit1" type="submit" value="Submit" /><br />
+
+        </form>
+    </div>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="http://code.jquery.com/jquery-1.5.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=renderRecaptcha&render=explicit" async defer></script>
+    <script>
+        $("form").submit(function (event) {
+            var message = "Please check the recaptcha before sending";
+            var recaptcha = $("#g-recaptcha-response").val();
+            if (recaptcha === "") {
+                event.preventDefault();
+                jQuery(capcha).html(message).css('color', 'red');
+            }
+        });</script>
+    <script>
+
+        function countChar(val) {
+            var len = val.value.length;
+
+            if (len >= 1000) {
+                val.value = val.value.substring(0, 1000);
+            } else {
+                $('#charNums').text("Characters left:");
+                $('#charNum').text(1000 - len);
+            }
+        };
+    </script>
+
+</div>
+

@@ -1,0 +1,50 @@
+﻿@model AM1.Models.Event
+
+@{
+    ViewData["Title"] = "Events";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="Yeller noPad">
+    <br />
+    <h4 class="text-center Yeller">EVENTS</h4>
+    <br />
+</div>
+
+<div class="container center-block" style="width: 70%;">
+    <h2 style="text-align:center;">@Html.DisplayFor(model => model.EventName)</h2>
+  
+    <br />
+    <div class="col-md-3">
+        <img class="blogpic" src="@Html.DisplayFor(model=>model.EventPicture)">
+    </div>
+
+    <div class="col-md-7  col-md-offset-2">
+        <div class="col-md-12" style="margin-bottom:5%;">
+            <p>Date: @string.Format("{0:dd MMMM yyyy}", Model.StartEventDate)</p>
+            <p>Time: @Html.DisplayFor(model => model.StartTime) - @Html.DisplayFor(model => model.FinishTime)</p>
+            
+            <p>Location:  @Html.DisplayFor(model => model.FullAddress)</p>
+            @if (Model.Free)
+            {
+                <p>Cost: Free</p>
+            }
+            else
+            {
+                <p>Cost: $@Model.Price </p>
+            }
+
+            <p>Category: @Html.DisplayFor(model => model.EventCategory)</p>
+
+        </div>
+        <div class="col-md-12">
+            <p>@Html.DisplayFor(model => model.EventDescription)</p>
+        </div>
+    </div>
+</div>
+
+<br />
+
+
+@*<a asp-action="Edit" asp-route-id="@Model.EventID">Edit</a>
+    <a asp-action="Index">Back to List</a>*@

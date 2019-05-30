@@ -1,0 +1,32 @@
+﻿@model AM1.Models.Album
+
+@{
+    ViewData["Title"] = "Album details";
+    var PhotoList = ViewBag.PhotoList;
+}
+
+
+
+<div class="container">
+    <hr />
+    <h1 style="text-align:center;">@Model.AlbumTitle</h1>
+    <div class="container">
+        <a href='javascript:history.go(-1)' style="width:11%; float:left;"><h2 style="border:solid; padding:10px;  text-align:center;">Return</h2></a>
+        <a href="/Albums/Delete/@Model.AlbumID" style="float:right;width:11%;"><h2 style="border:solid; padding:10px;  text-align:center;">Delete</h2></a>
+    </div>
+
+    <hr />
+    @foreach (Photos photo in PhotoList)
+    {
+        <a asp-action="Details" asp-controller="Photos" asp-route-id="@photo.PhotoID">
+            <div class="col-md-3" style="margin: 4%; height: 33vh">
+                <img src="@photo.FileFullPath" style="height:100%;width:100%;" />
+            </div>
+        </a>
+    }
+
+    @*<div>
+            <a asp-action="Edit" asp-route-id="@Model.AlbumID">Edit</a> |
+            <a asp-action="Index">Back to List</a>
+        </div>*@
+</div>

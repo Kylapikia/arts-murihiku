@@ -1,0 +1,108 @@
+﻿@model IEnumerable<AM1.Models.Cart>
+@using Microsoft.AspNetCore.Identity
+@using AM1.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Cart";
+    double Total = 0;
+
+}
+<div class="Yeller noPad">
+    <br />
+    <h4 class="text-center Yeller">SHOPPING CART</h4>
+    <br />
+</div>
+<div>
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <a asp-area="" asp-controller="Products" asp-action="Index"><input type="button" name="Checkout" value="Back to Shop" class="ShopButton pull-right" /></a>
+
+        @*<a asp-area="" asp-controller="Carts" asp-action="Index">View Cart</a>
+            <a asp-area="" asp-controller="Carts" asp-action="Checkout">Procede to Checkout</a>*@
+
+    }
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <h3>Shopping Cart</h3>
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.ArtistID)
+                </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ProductID)
+                    </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.ProductPrice)
+            </th>
+            @*<th>
+                        @Html.DisplayNameFor(model => model.Quantity)
+                    </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ProductName)
+                </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            Total += item.ProductPrice; //* item.Quantity;
+            <tr>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.ArtistID)
+                    </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductID)
+                        </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    $@Html.DisplayFor(modelItem => item.ProductPrice)
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.CartID">Remove from cart</a>
+                </td>
+                @*<td>
+                            <a asp-action="Edit" asp-route-id="@item.CartID">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.CartID">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.CartID">Delete</a>
+                    </td>*@
+            </tr>
+        }
+        <tr>
+            <th>
+                Total
+            </th>
+            <th>
+                $@Total
+            </th>
+            <th></th>
+        </tr>
+    </tbody>
+</table>
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="col-md-6">
+        <a asp-action="ClearCart" asp-route-id="@Total"><input type="button" name="ClearCart" value="Clear Cart" class="ShopButton GoLeft"></a>
+    </div>
+    <div class="col-md-6">
+        <a asp-area="" asp-controller="Carts" asp-action="Checkout"><input type="button" name="Checkout" value="Checkout" class="ShopButton pull-right btn" /></a>
+    </div>
+    @*<div class="col-md-10">
+            <a asp-action="ClearCart" asp-route-id="@Total"><input type="button" name="ClearCart" value="Clear Cart" class="ShopButton"></a>
+        </div>
+        <div class="col-md-2 ">
+            <a asp-area="" asp-controller="Carts" asp-action="Checkout"><input type="button" name="Checkout" value="Checkout" class="ShopButton" /></a>
+        </div>*@
+}

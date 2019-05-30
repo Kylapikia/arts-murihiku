@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Arts Murihiku</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/images/favicon.ico" />
+    <environment include="Development">
+        <link href="~/css/w3.css" rel="stylesheet" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/Version6/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/Version6/site.css" />
+        <link rel='stylesheet' href='~/css/fullcalendar.css' />
+        <link rel='stylesheet' href='~/css/fullcalendar.min.css' />
+        <script src='~/js/lib/jquery.min.js'></script>
+        <script src='~/js/lib/moment.min.js'></script>
+        <script src='~/js/fullcalendar.js'></script>
+        <script src='~/js/options.js'></script>
+        <link rel='stylesheet' href='~/css/Kyla.css' />
+
+    </environment>
+    <environment exclude="Development">
+        <link href="~/css/w3.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+
+        <link rel='stylesheet' href='~/css/fullcalendar.css' />
+        <link rel='stylesheet' href='~/css/fullcalendar.min.css' />
+        <script src='~/js/lib/jquery.min.js'></script>
+        <script src='~/js/lib/moment.min.js'></script>
+        <script src='~/js/fullcalendar.js'></script>
+        <script src='~/js/options.js'></script>
+    </environment>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"><img style="max-width:150px; margin-top: -7px;" src="~/images/transpy.png" height="42" width="130"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-center">
+                    <li class="active NavText"><a asp-area="" asp-controller="Home" asp-action="Index">Introduction</a></li>
+                    <li class="active NavText"><a asp-area="" asp-controller="Home" asp-action="Directory">Artist Directory</a></li>
+                    <li class="active NavText"><a asp-area="" asp-controller="Home" asp-action="Events">Events</a></li>
+                    <li class="active NavText"><a asp-area="" asp-controller="Home" asp-action="Trail">Art trail</a></li>
+                </ul>
+
+                @await Html.PartialAsync("_LoginPartial")
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <div id="myNav" class="overlay ">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="col-md-9 vl text-right">
+                    <a asp-area="" asp-controller="Home" asp-action="Index">Introduction</a>
+                    <a asp-area="" asp-controller="Home" asp-action="About">About</a>
+                    <a asp-area="" asp-controller="Home" asp-action="Team">Meet the team</a>
+                    <a asp-area="" asp-controller="Blogs" asp-action="Index">Blog</a>
+                    <a asp-area="" asp-controller="Products" asp-action="Index">Shop</a>
+                    <a asp-area="" asp-controller="VolForms" asp-action="Create">Volunteer</a>
+                    <a asp-area="" asp-controller="Home" asp-action="Contact">Contact us</a>
+                </div>
+
+                <div class="col-md-3 text-left ">
+                    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                    <a href="https://www.facebook.com/artsmurihiku/" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/artsmurihiku/" target="_blank">Instagram</a>
+
+                </div>
+
+            </div>
+        </div>
+        <br />
+        <div class="container body-content">
+            @*
+            <footer>
+                <p>&copy; 2018 - AM1</p>
+            </footer>
+            *@
+        </div>
+
+        <environment include="Development">
+            <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+            <script src="~/js/site.js" asp-append-version="true"></script>
+            <script src="Scripts/WebForms/main.js"></script>
+        </environment>
+        <environment exclude="Development">
+            <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                    asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                    asp-fallback-test="window.jQuery"
+                    crossorigin="anonymous"
+                    integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+            </script>
+            <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                    crossorigin="anonymous"
+                    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+            </script>
+            <script src="~/js/site.min.js" asp-append-version="true"></script>
+            <script src="Scripts/WebForms/main.js"></script>
+        </environment>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+
+        </script>
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.height = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.height = "0%";
+            }</script>
+        @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+

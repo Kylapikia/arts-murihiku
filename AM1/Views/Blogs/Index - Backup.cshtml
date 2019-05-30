@@ -1,0 +1,120 @@
+﻿@model IEnumerable<AM1.Models.Blog>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form asp-controller="Blogs" asp-action="Index">
+    <p>
+        <div class="form-group">
+            Search by Name: <input type="text" name="byname">
+        </div>
+        <div class="form-group">
+            Search by Author: <input type="text" name="byauthor">
+        </div>
+        <div class="form-group">
+            Sort list by:<br>
+            <input type="radio" name="sortingmode" value="old"> Oldest<br>
+            <input type="radio" name="sortingmode" value="new"> Latest
+        </div>
+        <div class="form-group">
+            Search by Category:
+            @*
+                // old input
+                <input type="text" name="bycategory">*@
+            <select name="bycategory">
+                <option value="Guest Blog">Guest Blog</option>
+                <option value="How to Guides">How to Guides</option>
+                <option value="Media">Media</option>
+                <option value="Resources">Resources</option>
+            </select>
+        </div>
+        @*
+            <label asp-for="ContactMethod" class="control-label"></label>
+            <select asp-for="ContactMethod" class="form-control">
+                <option value="Phone">Phone</option>
+                <option value="Text">Text</option>
+                <option value="Email">Email</option>
+            </select>
+            <span asp-validation-for="ContactMethod" class="text-danger"></span>
+        *@
+        <div class="form-group">
+            Start Date: <input type="datetime-local" name="dateTime1">
+        </div>
+        <div class="form-group">
+            <input type="radio" name="timeset" value="more" checked> more<br>
+            <input type="radio" name="timeset" value="less"> less<br>
+            <input type="radio" name="timeset" value="until"> until
+        </div>
+        <div class="form-group">
+            Finish Date: <input type="datetime-local" name="dateTime2">
+        </div>
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<form asp-controller="Blogs" asp-action="Index">
+    <p>
+        <input type="submit" value="Reset" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BlogPic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PublishDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BlogPost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="@item.BlogPic">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublishDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BlogPost)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category)
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.BlogID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.BlogID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.BlogID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

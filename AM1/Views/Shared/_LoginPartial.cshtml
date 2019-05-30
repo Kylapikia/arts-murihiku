@@ -1,0 +1,43 @@
+<link href="~/css/Version6/site.css" rel="stylesheet" type="text/css" />
+@using Microsoft.AspNetCore.Identity
+@using AM1.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@{
+    ApplicationUser user = await UserManager.GetUserAsync(User);
+}
+@if (SignInManager.IsSignedIn(User))
+{
+    <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="navbar-right active">
+        <ul class="nav navbar-nav navbar-right">
+            @*<li class="active NavText">
+                <a asp-controller="Albums" asp-action="Index" title="Albums">My Album</a>
+            </li>*@
+            <li class="active NavText ">
+                <a asp-area="" asp-controller="Carts" asp-action="Index">
+
+                    <span class="glyphicon glyphicon-shopping-cart">@user.CartID</span>
+                </a>
+            </li>
+            <li>
+                <a class="active NavText" asp-area="" asp-controller="Manage" asp-action="Index" title="Manage">
+                    @*Hello @user.Name*@
+                    My Profile
+                </a>
+            </li>
+            <li class="">
+                <button type="submit" class="  btn-link navbar-btn  NavText">Log out</button>
+            </li>
+            <li class="navbar-right"><span class="pull-left" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></li>
+        </ul>
+    </form>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li class="active NavText"><a asp-area="" asp-controller="Account" asp-action="Register">Register</a></li>
+        <li class="active NavText"><a asp-area="" asp-controller="Account" asp-action="Login">Log in</a></li>
+        <li class="navbar-right"><span class="pull-left" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></li>
+    </ul>
+}

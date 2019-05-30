@@ -1,0 +1,134 @@
+﻿@model AM1.Models.GMapModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>GMapModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="GMapID" />
+            <div class="form-group">
+                <label asp-for="Lat" class="control-label"></label>
+                <input asp-for="Lat" class="form-control" />
+                <span asp-validation-for="Lat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lng" class="control-label"></label>
+                <input asp-for="Lng" class="form-control" />
+                <span asp-validation-for="Lng" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GName" class="control-label"></label>
+                <input asp-for="GName" class="form-control" />
+                <span asp-validation-for="GName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GDisciplines" class="control-label"></label>
+                <input asp-for="GDisciplines" class="form-control" />
+                <span asp-validation-for="GDisciplines" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GAddress" class="control-label"></label>
+                <input asp-for="GAddress" class="form-control" />
+                <span asp-validation-for="GAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GLinkProfile" class="control-label"></label>
+                <input asp-for="GLinkProfile" class="form-control" />
+                <span asp-validation-for="GLinkProfile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GProfilePic" class="control-label"></label>
+                <input asp-for="GProfilePic" class="form-control" />
+                <span asp-validation-for="GProfilePic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MondayOpen" class="control-label"></label>
+                <input asp-for="MondayOpen" class="form-control" />
+                <span asp-validation-for="MondayOpen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MondayClose" class="control-label"></label>
+                <input asp-for="MondayClose" class="form-control" />
+                <span asp-validation-for="MondayClose" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TuesdayOpen" class="control-label"></label>
+                <input asp-for="TuesdayOpen" class="form-control" />
+                <span asp-validation-for="TuesdayOpen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TuesdayClose" class="control-label"></label>
+                <input asp-for="TuesdayClose" class="form-control" />
+                <span asp-validation-for="TuesdayClose" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WednesdayOpen" class="control-label"></label>
+                <input asp-for="WednesdayOpen" class="form-control" />
+                <span asp-validation-for="WednesdayOpen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WednesdayClose" class="control-label"></label>
+                <input asp-for="WednesdayClose" class="form-control" />
+                <span asp-validation-for="WednesdayClose" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThursdayOpen" class="control-label"></label>
+                <input asp-for="ThursdayOpen" class="form-control" />
+                <span asp-validation-for="ThursdayOpen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThursdayClose" class="control-label"></label>
+                <input asp-for="ThursdayClose" class="form-control" />
+                <span asp-validation-for="ThursdayClose" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FridayOpen" class="control-label"></label>
+                <input asp-for="FridayOpen" class="form-control" />
+                <span asp-validation-for="FridayOpen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FridayClose" class="control-label"></label>
+                <input asp-for="FridayClose" class="form-control" />
+                <span asp-validation-for="FridayClose" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SaturdayOpen" class="control-label"></label>
+                <input asp-for="SaturdayOpen" class="form-control" />
+                <span asp-validation-for="SaturdayOpen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SaturdayClose" class="control-label"></label>
+                <input asp-for="SaturdayClose" class="form-control" />
+                <span asp-validation-for="SaturdayClose" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SundayOpen" class="control-label"></label>
+                <input asp-for="SundayOpen" class="form-control" />
+                <span asp-validation-for="SundayOpen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SundayClose" class="control-label"></label>
+                <input asp-for="SundayClose" class="form-control" />
+                <span asp-validation-for="SundayClose" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

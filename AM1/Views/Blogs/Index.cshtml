@@ -1,0 +1,68 @@
+﻿@model IEnumerable<AM1.Models.Blog>
+
+@{
+    ViewData["Title"] = "Blog";
+}
+<div class="Yeller noPad">
+    <br />
+    <h4 class="text-center Yeller">BLOG</h4>
+    <br />
+</div>
+<a class="pull-left NavText" asp-action="Create"><span class="glyphicon glyphicon-plus"></span>Add Blog</a>
+<br /><br /><br>
+<div class="container " style="min-height: 72vh;">
+
+    <iframe id="mainframe" src="/Blogs/Placeholder" style="width:65%;min-height: 72vh;"></iframe>
+
+    <div style="width:30%;min-height: 72vh; float:right; border:none; height:72vh; overflow-y:auto;">
+        <form asp-action="Index">
+            <input type="text" name="Byname" placeholder="Search by title..." style="width:100%;">
+            Sort by
+            <select name="sortingmode" class="form-control" style="width:100%;">
+                <option></option>
+                <option value="In the media">In the media</option>
+                <option value="Guest blog">Guest blog</option>
+                <option value="Other">Other</option>
+
+                <option value="new">Most recent</option>
+                <option value="old">Oldest posted</option>
+
+                <option value="asc">A-Z</option>
+                <option value="desc">Z-A</option>
+            </select>
+            <input type="submit" name="submit" value="Apply" />
+        </form>
+        <hr />
+        @foreach (var item in Model)
+        {
+            <div class="col-md-12" style="margin:0; padding:0; cursor: pointer;" onclick="myDisplay(@item.BlogID)" >
+                <img src="@item.BlogPic" height="70" width="70" style="float:left;">
+                <p class="fontBody" style="margin-left:75px;">
+                    @Html.DisplayFor(modelItem => item.Author)<br>
+                    @Html.DisplayFor(modelItem => item.Title)<br>
+                    @Html.DisplayFor(modelItem => item.PublishDate)
+                </p>
+                <hr />
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    function myDisplay(id) {
+        document.getElementById("mainframe").src = "/Blogs/Minidetails/" + id;
+    }
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+
+</script>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }</script>

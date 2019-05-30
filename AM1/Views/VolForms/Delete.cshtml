@@ -1,0 +1,273 @@
+﻿@model AM1.Models.VolForm
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>VolForm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HomeAddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.HomeAddress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailAddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmailAddress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RefOne)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RefOne)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RefOneContact)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RefOneContact)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RefTwo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RefTwo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RefTwoContact)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RefTwoContact)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactMethod)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ContactMethod)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PreviousExperience)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PreviousExperience)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstAidCertificate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstAidCertificate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PoliceVetCheck)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PoliceVetCheck)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TermsAndConditions)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TermsAndConditions)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Lighting)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lighting)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sound)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sound)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SetBuilding)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SetBuilding)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MakeUp)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MakeUp)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Hair)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Hair)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Costuming)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Costuming)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Props)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Props)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StageManagement)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StageManagement)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Prompt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Prompt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FrontOfHouse)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FrontOfHouse)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Catering)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Catering)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PublicityAndPromotion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PublicityAndPromotion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AssistanceVisitors)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AssistanceVisitors)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AssistanceExhibitionsGen)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AssistanceExhibitionsGen)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AssistanceWorkshops)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AssistanceWorkshops)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PublicityAndPromotion1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PublicityAndPromotion1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SupportOpenings)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SupportOpenings)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AssistanceVisitors1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AssistanceVisitors1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AssistanceExhibitionsGen1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AssistanceExhibitionsGen1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PublicityAndPromotion2)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PublicityAndPromotion2)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SupportOpenings1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SupportOpenings1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AssistanceWorkshops1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AssistanceWorkshops1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.WebsiteDevelopment)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.WebsiteDevelopment)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Instagram)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Instagram)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SnapChat)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SnapChat)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Facebook)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Facebook)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Twitter)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Twitter)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AppDevelopment)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AppDevelopment)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="VolFormID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

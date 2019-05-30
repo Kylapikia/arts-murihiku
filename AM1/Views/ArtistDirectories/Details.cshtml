@@ -1,0 +1,202 @@
+﻿@model AM1.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Artist Directory";
+    Layout = "~/Views/Shared/_LayoutCal.cshtml";
+
+    List<Album> Albums = ViewBag.Albums;
+    List<Photos> Thumbs = ViewBag.Thumbs;
+    bool yesphoto = true;
+}
+@{
+    string disciplines = "";
+    foreach (string str in Model.DisciplineList)
+    {
+        disciplines += string.Format("{0}, ", str);
+    }
+    if (disciplines != "") { disciplines = disciplines.Substring(0, (disciplines.Length - 2)); }
+}
+@{
+    string creatives = "";
+    foreach (string str in Model.CreativesList)
+    {
+        creatives += string.Format("{0}, ", str);
+    }
+    if (creatives != "") { creatives = creatives.Substring(0, (creatives.Length - 2)); }
+}
+<br />
+
+<div class="container" style=" height: 80vh; padding:0;">
+
+
+
+    <div class="col-md-1 " style="height:60vh; margin-top:100px; margin-left:-100px;">
+        <div id="aboutbutton" onclick="SwitchAbout()" style="width:100%; height:15%; border:solid; margin-bottom:35%; text-align:center; padding-top:1.5em; cursor:pointer; background-color: yellow;">About me</div>
+        <div id="gallerybutton" onclick="SwitchGallery()" style="width:100%; height:15%; border:solid; margin-bottom:35%; text-align:center; padding-top:1.5em;cursor:pointer; background-color: transparent;">Gallery</div>
+    </div>
+
+
+    <div id="contentmainframe" class="col-md-8" style="height:100%; border:none; padding:0;">
+        @*Content loaded with jquery*@
+    </div>
+
+
+    <div class="col-md-3 pull-right" style="height:100%; border:none; border-left:none;">
+        <div style="width:100%; height:55%; padding:5%;">
+            <img src="@Html.DisplayFor(model => model.ProfilePic)" style="height:100%; width:100%;" />
+        </div>
+        <div style="width:100%;height:45%; text-align:center;">
+            <h2>@Html.DisplayFor(model => model.Name)</h2>
+            <p> @Html.DisplayFor(model => model.City)</p>
+
+
+            @if (string.IsNullOrEmpty(Model.FacebookLink) && string.IsNullOrEmpty(Model.YoutubeLink) && string.IsNullOrEmpty(Model.WebsiteLink) && string.IsNullOrEmpty(Model.InstagramLink) && string.IsNullOrEmpty(Model.DeviantArt))
+            {
+                <p>My social media profile is not available</p>
+            }
+            else
+            {
+                <p>My social media profile</p>
+            }
+            @if (!string.IsNullOrEmpty(Model.FacebookLink))
+            {
+                <p><a href="http://@Html.DisplayFor(model => model.FacebookLink)">Facebook</a></p>
+            }
+            @if (!string.IsNullOrEmpty(Model.YoutubeLink))
+            {
+                <p><a href="http://@Html.DisplayFor(model => model.YoutubeLink)">Youtube</a></p>
+            }
+            @if (!string.IsNullOrEmpty(Model.WebsiteLink))
+            {
+                <p><a href="http://@Html.DisplayFor(model => model.WebsiteLink)">Website</a></p>
+            }
+            @if (!string.IsNullOrEmpty(Model.InstagramLink))
+            {
+                <p><a href="http://@Html.DisplayFor(model => model.InstagramLink)">Instagram</a></p>
+            }
+            @if (!string.IsNullOrEmpty(Model.DeviantArt))
+            {
+                <p><a href="http://@Html.DisplayFor(model => model.DeviantArt)">Deviant Art</a></p>
+            }
+        </div>
+    </div>
+</div>
+
+<div id="aboutmecontent" hidden>
+    <div class="col-md-12 text-center" style="height:10%; border-bottom:none;">
+        <a class="pull-left" asp-action="Index"><span class="glyphicon glyphicon-arrow-left"></span> Back to Directory</a> <h1 style="margin:0;">About me</h1>
+    </div>
+    <div class="col-md-5 pull-right" style="height:70%; ">
+        <h2>@Html.DisplayFor(model => model.Name)</h2>
+
+        @if (Model.IsAddressVisable)
+        {
+            <p>Address: @Html.DisplayFor(model => model.Address)</p>
+        }
+        else
+        {
+            <p> Address: not available </p>
+        }
+        @if (Model.IsEmailVisable)
+        {
+            <p> Email: @Html.DisplayFor(model => model.Email)</p>
+        }
+        else
+        {
+            <p> Email: not available </p>
+        }
+        @if (Model.IsPhoneVisable)
+        {
+            <p>Phone: @Html.DisplayFor(model => model.PhoneNumber)</p>
+        }
+        else
+        {
+            <p> Phone: not available </p>
+        }
+
+
+        <p>@disciplines</p>
+
+        <p>@creatives</p>
+        <h3>Description</h3> @Html.DisplayFor(model => model.ArtistDescription)
+    </div>
+    <div class="col-md-5 pull-right" style="height:100%;">
+        <div style="width:100%; height:55%;  ">
+            <img src="@Html.DisplayFor(model => model.ProfilePic)" style="height:100%; width:100%;" />
+        </div>
+    </div>
+
+    @*<h3>Description</h3> @Html.DisplayFor(model => model.ArtistDescription)*@
+</div>
+
+
+<div id="gallerycontent" hidden>
+    <a class="pull-left" asp-action="Index"><span class="glyphicon glyphicon-arrow-left"></span> Back to Directory</a>
+    <div style="overflow-y:auto; height:100%;">
+        @if (Albums.Count == 0)
+        {
+            <h4>Album is not available yet.</h4>
+        }
+        else
+        {
+            @foreach (Album album in Albums)
+            {
+                <a asp-action="Index" asp-controller="Photos" asp-route-albumid="@album.AlbumID">
+                    <div class="col-md-3" style="height:40%;border:solid; margin:3%;">
+                        <p><h4 style="text-align:center;"><b>@album.AlbumTitle</b></h4></p>
+                        <hr />
+                        @foreach (Photos pp in Thumbs)
+                        {
+                            @if (pp.PhotoAlbumID.Equals(album.AlbumID))
+                            {
+                                yesphoto = true;
+                                <img src="@pp.FileFullPath" style="width:100%;height:70%;">
+                                break;
+                            }
+                            else
+                            {
+                                yesphoto = false;
+                            }
+                        }
+                        @if (!yesphoto)
+                        {
+                            <h4 style="text-align:center;">No <br /> photo <br /> available</h4>
+                        }
+                    </div>
+                </a>
+            }
+        }
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        SwitchAbout();
+    });
+
+    function SwitchAbout() {
+        document.getElementById("aboutbutton").style.backgroundColor = "yellow";
+        document.getElementById("gallerybutton").style.backgroundColor = "transparent";
+        document.getElementById("contentmainframe").innerHTML = document.getElementById("aboutmecontent").innerHTML;
+    }
+    function SwitchGallery() {
+        document.getElementById("aboutbutton").style.backgroundColor = "transparent";
+        document.getElementById("gallerybutton").style.backgroundColor = "yellow";
+        document.getElementById("contentmainframe").innerHTML = document.getElementById("gallerycontent").innerHTML;
+
+    }
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+
+</script>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }</script>

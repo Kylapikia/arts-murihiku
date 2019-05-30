@@ -1,0 +1,66 @@
+﻿@model IEnumerable<AM1.Models.ApplicationUser>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Artists</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ArtistName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArtistDescription)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ArtistName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ArtistDescription)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ArtistID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ArtistID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ArtistID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<hr />
+<br />*@
+
+
+    @*@foreach (var item in Model)
+    {
+        @*<div class="col-md-4">@Html.DisplayFor(modelItem => item.ArtistName)</div>*@
+        <div class="col-md-4" style="padding-top:2%;">
+            <div class="w3-card-4 w3-dark-grey" style="width:100%">
+                <div class="w3-container w3-center">
+                    <h3>@Html.DisplayFor(modelItem => item.ArtistName)</h3>
+                    <img src="https://www.w3schools.com/w3css/img_avatar3.png" alt="Avatar" style="width:100%">
+                    <div class="w3-container w3-justify">
+                        <p>@Html.DisplayFor(modelItem => item.ArtistDescription)</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }*@

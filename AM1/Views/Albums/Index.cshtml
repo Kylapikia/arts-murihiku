@@ -1,0 +1,51 @@
+﻿@model IEnumerable<AM1.Models.Album>
+
+@{
+    ViewData["Title"] = "Index";
+    var photoList = ViewBag.photoList;
+}
+<h2>My Albums</h2>
+<p>
+    <a class="pull-left NavText" asp-action="Create"><span class="glyphicon glyphicon-plus"></span>Add</a>
+</p>
+
+
+<div class="container" style="padding:0; height:65vh">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-12" style="height: 250px;margin-bottom: 50px;padding:0;">
+            <a asp-action="Details" asp-controller="Albums" asp-route-id="@item.AlbumID">
+                <h2>@Html.DisplayFor(modelItem => item.AlbumTitle)</h2>
+
+                <div class="col-md-8" style="border:solid;height: 75%; padding:0; border-right:none;">
+                    @{ int counter = 0;}
+                    @foreach (Photos photos in photoList)
+                    {
+                        if (counter == 4)
+                        {
+                            break;
+                        }
+                        if (photos.PhotoAlbumID == item.AlbumID)
+                        {
+                            <div class="col-md-3" style="height: 100%; padding:2%;">
+                                <img src="@photos.FileFullPath" style="height:100%;width:100%;" />
+                            </div>
+                            counter++;
+
+                        }
+                    }
+                </div>
+            </a>
+
+            <div class="col-md-2" style="height: 75%; border:solid; border-right:none; overflow-y:auto;">
+                @Html.DisplayFor(modelItem => item.AlbumDescription)
+            </div>
+
+            <div class="col-md-2" style="height: 75%; padding:0; border:solid; ">
+                <a asp-action="PhotoUpload" asp-controller="Photos" asp-route-albumid="@item.AlbumID">
+                    <img src="~/resources/addPhoto.jpg" style="height:100%;width:100%;" />
+                </a>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,285 @@
+﻿@model IEnumerable<AM1.Models.VolForm>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="Yeller noPad">
+    <br />
+    <h4 class="text-center Yeller">EVENTS</h4>
+    <br />
+</div>
+<h2>Index</h2>
+<p>lorem lipsom lorem lipsom lorem lipsom lorem lipsom lorem lipsom lorem lipsom lorem lipsom lorem lipsom lorem lipsom lorem lipsom lorem lipsom lorem lipsom lorem lipsom lorem lipsom </p>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HomeAddress)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PhoneNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmailAddress)
+                </th>
+                @*<th>
+                    @Html.DisplayNameFor(model => model.RefOne)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RefOneContact)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RefTwo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RefTwoContact)
+                </th>*@
+                <th>
+                    @Html.DisplayNameFor(model => model.ContactMethod)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PreviousExperience)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstAidCertificate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PoliceVetCheck)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TermsAndConditions)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Lighting)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Sound)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SetBuilding)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MakeUp)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Hair)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Costuming)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Props)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StageManagement)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Prompt)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FrontOfHouse)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Catering)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PublicityAndPromotion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AssistanceVisitors)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AssistanceExhibitionsGen)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AssistanceWorkshops)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PublicityAndPromotion1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SupportOpenings)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AssistanceVisitors1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AssistanceExhibitionsGen1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PublicityAndPromotion2)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SupportOpenings1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AssistanceWorkshops1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.WebsiteDevelopment)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Instagram)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SnapChat)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Facebook)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Twitter)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AppDevelopment)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HomeAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAddress)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.RefOne)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RefOneContact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RefTwo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RefTwoContact)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactMethod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PreviousExperience)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstAidCertificate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PoliceVetCheck)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TermsAndConditions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lighting)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sound)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SetBuilding)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MakeUp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hair)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Costuming)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Props)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StageManagement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prompt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FrontOfHouse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Catering)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublicityAndPromotion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssistanceVisitors)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssistanceExhibitionsGen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssistanceWorkshops)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublicityAndPromotion1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SupportOpenings)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssistanceVisitors1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssistanceExhibitionsGen1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublicityAndPromotion2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SupportOpenings1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssistanceWorkshops1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WebsiteDevelopment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instagram)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SnapChat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Facebook)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Twitter)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppDevelopment)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.VolFormID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.VolFormID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.VolFormID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

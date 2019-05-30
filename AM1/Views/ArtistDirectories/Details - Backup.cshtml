@@ -1,0 +1,271 @@
+﻿@model AM1.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Details";
+    var Albums = ViewBag.Albums;
+}
+@{
+    string disciplines = "";
+    foreach (string str in Model.DisciplineList)
+    {
+        disciplines += string.Format("{0}, ", str);
+    }
+    if (disciplines != "") { disciplines = disciplines.Substring(0, (disciplines.Length - 2)); }
+}
+@{
+    string creatives = "";
+    foreach (string str in Model.CreativesList)
+    {
+        creatives += string.Format("{0}, ", str);
+    }
+    if (creatives != "") { creatives = creatives.Substring(0, (creatives.Length - 2)); }
+}
+<hr />
+
+
+<div class="container" style=" height: 80vh; padding:0;">
+
+
+
+    <div class="col-md-1" style="height:80vh;">
+        <div id="aboutbutton" onclick="SwitchAbout()" style="width:100%; height:15%; border:solid; margin-bottom:35%; text-align:center; padding-top:1.5em; cursor:pointer; background-color: yellow;">About <br />me</div>
+        <div id="gallerybutton" onclick="SwitchGallery()" style="width:100%; height:15%; border:solid; margin-bottom:35%; text-align:center; padding-top:2em;cursor:pointer; background-color: transparent;">Gallery</div>
+    </div>
+
+
+    <div id="contentmainframe" class="col-md-8" style="height:100%; border:solid; padding:0;">
+        @*Content loaded with jquery*@
+    </div>
+
+
+    <div class="col-md-3" style="height:100%; border:solid; border-left:none;">
+        <div style="width:100%; height:55%; padding:5%;">
+            <img src="@Html.DisplayFor(model => model.ProfilePic)" style="height:100%; width:100%;" />
+        </div>
+        <div style="width:100%;height:45%; text-align:center;">
+            <h3>@Html.DisplayFor(model => model.Name)</h3>
+            <p> @Html.DisplayFor(model => model.City)</p>
+
+
+            @if (string.IsNullOrEmpty(Model.FacebookLink) && string.IsNullOrEmpty(Model.YoutubeLink) && string.IsNullOrEmpty(Model.WebsiteLink) && string.IsNullOrEmpty(Model.InstagramLink) && string.IsNullOrEmpty(Model.DeviantArt))
+            {
+                <p>My social media profile is not available</p>
+            }
+            else
+            {
+                <p>My social media profile</p>
+            }
+            @if (!string.IsNullOrEmpty(Model.FacebookLink))
+            {
+                <p><a href="http://@Html.DisplayFor(model => model.FacebookLink)">Facebook</a></p>
+            }
+            @if (!string.IsNullOrEmpty(Model.YoutubeLink))
+            {
+                <p><a href="http://@Html.DisplayFor(model => model.YoutubeLink)">Youtube</a></p>
+            }
+            @if (!string.IsNullOrEmpty(Model.WebsiteLink))
+            {
+                <p><a href="http://@Html.DisplayFor(model => model.WebsiteLink)">Website</a></p>
+            }
+            @if (!string.IsNullOrEmpty(Model.InstagramLink))
+            {
+                <p><a href="http://@Html.DisplayFor(model => model.InstagramLink)">Instagram</a></p>
+            }
+            @if (!string.IsNullOrEmpty(Model.DeviantArt))
+            {
+                <p><a href="http://@Html.DisplayFor(model => model.DeviantArt)">Deviant Art</a></p>
+            }
+        </div>
+    </div>
+</div>
+
+<div id="aboutmecontent" hidden>
+    <div class="col-md-12" style="height:10%; border-bottom:solid;">
+        <h1 style="margin:0;">About me</h1>
+    </div>
+    <div class="col-md-7" style="height:70%; ">
+        <p>@Html.DisplayFor(model => model.Name)</p>
+
+        @if (Model.IsAddressVisable)
+        {
+            <p>Address: @Html.DisplayFor(model => model.Address)</p>
+        }
+        else
+        {
+            <p> Address: not available </p>
+        }
+        @if (Model.IsEmailVisable)
+        {
+            <p> Email: @Html.DisplayFor(model => model.Email)</p>
+        }
+        else
+        {
+            <p> Email: not available </p>
+        }
+        @if (Model.IsPhoneVisable)
+        {
+            <p>Phone: @Html.DisplayFor(model => model.PhoneNumber)</p>
+        }
+        else
+        {
+            <p> Phone: not available </p>
+        }
+
+
+        <p>@disciplines</p>
+
+        <p>@creatives</p>
+    </div>
+    <div class="col-md-5" style="height:70%;">
+        <div style="width:100%; height:55%;  margin-top:33%;">
+            <img src="@Html.DisplayFor(model => model.ProfilePic)" style="height:100%; width:100%;" />
+        </div>
+    </div>
+
+    <div class="col-md-12" style="height:20%; border-top:solid; overflow-wrap:break-word;">
+        @Html.DisplayFor(model => model.ArtistDescription)
+    </div>
+</div>
+
+
+<div id="gallerycontent" hidden>
+    <div style="overflow-y:auto; height:100%;">
+        @foreach (Album album in Albums)
+        {
+            <div class="col-md-3" style="height:40%;border:solid; margin:3%;">
+                <p>@album.AlbumTitle</p>
+            </div>
+        }
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        SwitchAbout();
+    });
+
+    function SwitchAbout() {
+        document.getElementById("aboutbutton").style.backgroundColor = "yellow";
+        document.getElementById("gallerybutton").style.backgroundColor = "transparent";
+        document.getElementById("contentmainframe").innerHTML = document.getElementById("aboutmecontent").innerHTML;
+    }
+    function SwitchGallery() {
+        document.getElementById("aboutbutton").style.backgroundColor = "transparent";
+        document.getElementById("gallerybutton").style.backgroundColor = "yellow";
+        document.getElementById("contentmainframe").innerHTML = document.getElementById("gallerycontent").innerHTML;
+
+    }
+</script>
+
+
+
+
+
+
+@*<div class="container">
+
+
+
+
+        <div class="col-md-4 w3-border w3-round-xlarge" style="height:inherit;">
+            <img src="@Html.DisplayFor(model => model.ProfilePic)" class="w3-border w3-padding-small" style="width:80%; height: 150px;"><br /><br />
+            <p>Email:</p>
+
+            <p>Phone:</p>
+
+            <p>Address:</p>
+            @if (Model.IsAddressVisable)
+            {
+                <p> @Html.DisplayFor(model => model.Address)</p><br />
+            }
+            else
+            {
+                                                                <p> Not Available </p><br />
+            }
+            <p>City: @Html.DisplayFor(model => model.City)</p>
+
+            <p><a href="http://@Html.DisplayFor(model => model.FacebookLink)">@Html.DisplayFor(model => model.FacebookLink)</a></p>
+            <p><a href="http://@Html.DisplayFor(model => model.YoutubeLink)">@Html.DisplayFor(model => model.YoutubeLink)</a></p>
+            <p><a href="http://@Html.DisplayFor(model => model.WebsiteLink)">@Html.DisplayFor(model => model.WebsiteLink)</a></p>
+            <p><a href="http://@Html.DisplayFor(model => model.InstagramLink)">@Html.DisplayFor(model => model.InstagramLink)</a></p>
+            <p><a href="http://@Html.DisplayFor(model => model.DeviantArt)">@Html.DisplayFor(model => model.DeviantArt)</a></p>
+            <br />
+            <p><a href="/Map">Go to Map</a></p>
+
+        </div>
+
+        <div class="col-md-8 w3-border w3-round-xlarge">
+            <h1 style="text-align:center;">@Html.DisplayFor(model => model.Name)</h1>
+            <hr />
+            <h3>Description:</h3>
+            <br />
+
+            <br /><br />
+            <h3>Gallery</h3>
+            <div class="col-md-12" style="border:solid; ">
+                <div class="col-md-4" style="height:250px; border:dotted; "></div>
+                <div class="col-md-4" style="height:250px; border:dotted; "></div>
+                <div class="col-md-4" style="height:250px; border:dotted; "></div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <div style="float:right;">
+        <a asp-action="Index">Back to List</a>
+    </div>*@
+
+@*<div class="container">
+
+
+
+
+        <div class="col-md-4 w3-border w3-round-xlarge" style="height:inherit;">
+            <img src="@Html.DisplayFor(model => model.ProfilePic)" class="w3-border w3-padding-small" style="width:80%; height: 150px;"><br /><br />
+            <p></p>
+
+            <p></p>
+
+            <p></p>
+            <p></p><br />
+            <p></p><br />
+            <p></p>
+
+            <p><a href="http://@Html.DisplayFor(model => model.FacebookLink)"></a></p>
+            <p><a href="http://@Html.DisplayFor(model => model.YoutubeLink)"></a></p>
+            <p><a href="http://@Html.DisplayFor(model => model.WebsiteLink)"></a></p>
+            <p><a href="http://@Html.DisplayFor(model => model.InstagramLink)"></a></p>
+            <p><a href="http://@Html.DisplayFor(model => model.DeviantArt)"></a></p>
+            <br />
+            <p><a href="/Map"></a></p>
+
+        </div>
+
+        <div class="col-md-8 w3-border w3-round-xlarge">
+            <h1 style="text-align:center;"></h1>
+            <hr />
+            <h3></h3>
+            <br />
+
+            <br /><br />
+            <h3></h3>
+            <div class="col-md-12" style="border:solid; ">
+                <div class="col-md-4" style="height:250px; border:dotted; "></div>
+                <div class="col-md-4" style="height:250px; border:dotted; "></div>
+                <div class="col-md-4" style="height:250px; border:dotted; "></div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>*@
+
+@*<div style="float:right;">
+        <a asp-action="Index"></a>
+    </div>*@

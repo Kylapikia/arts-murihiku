@@ -1,0 +1,16 @@
+﻿@model AM1.Models.GMapModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2 style="text-align:center;">Are you sure you want to delete yourself from the Map?</h2>
+<hr />
+<div class="container" style="height:65vh; width:35%;">
+
+    <form asp-action="Delete" style="float:left;">
+        <input type="hidden" asp-for="GMapID" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+    </form>
+    <a asp-action="Index" class="btn btn-info" style="float:right;">Cancel</a>
+</div>

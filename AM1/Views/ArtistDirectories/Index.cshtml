@@ -1,0 +1,123 @@
+﻿<link href="~/css/artistdirectory.css" rel="stylesheet" type="text/css" />
+@model IEnumerable<AM1.Models.ApplicationUser>
+
+@{
+    ViewData["Title"] = "Artist Directory";
+}
+<div class="Yeller noPad">
+    <br />
+    <h4 class="text-center Yeller">Artist Directory</h4>
+    <br />
+</div>
+<br /><br />
+<div class="row">
+    <div class="container lftline">
+        <div  class="col-md-3 affix block">
+            <form asp-controller="ArtistDirectories" asp-action="Index">
+                <p>
+                    <div class="form-group">
+                        Refine
+                        <hr />
+                        <input type="text" name="Byname" placeholder="Search by name....">
+                    </div>
+                    <div class="form-group left ">
+                        @*Sort by:<br>*@
+                        <div class="colr">
+                            <select name="sortingmode" class="form-control">
+                                <option>Sort By</option>
+                                <option value="asc">A-Z</option>
+                                <option value="desc">Z-A</option>
+                                <option value="old">Oldest</option>
+                                <option value="new">Latest</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @*Creative type:<br>*@
+                        <select name="creativetype" class="form-control">
+                            <option>Creative Type</option>
+                            <option value="Individual">Individual</option>
+                            <option value="Organisation">Organization</option>
+                            <option value="Festival">Festival</option>
+                            <option value="CreativeSpace">Creative Space</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        @*Discipline:<br>*@
+                        <select name="artDiscipline" class="form-control">
+                            <option>Discipline</option>
+                            <option value="Paint">Paint</option>
+                            <option value="Literacy">Literacy</option>
+                            <option value="Design">Design</option>
+                            <option value="MixedMedia">Mixed Media</option>
+                            <option value="Education">Education</option>
+                            <option value="Multiculture">Multicultural</option>
+                            <option value="Film">Film</option>
+                            <option value="Music">Music</option>
+                            <option value="Photography">Photography</option>
+                            <option value="Pasifika">Pasifika</option>
+                            <option value="PubArt">Public Art</option>
+                            <option value="Sculpture">Sculpture</option>
+                            <option value="Textiles">Textiles</option>
+                            <option value="ToiMaori">Toi Maori</option>
+                            <option value="Theatre">Theatre</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        @*Location:<br>*@
+                        <select name="location" class="form-control">
+                            <option>Location</option>
+                            <option value="Invercargill">Invercargill</option>
+                            <option value="Bluff">Bluff</option>
+                            <option value="Gore">Gore</option>
+                            <option value="Te Anau">Te Anau</option>
+                            <option value="Queenstown">Queenstown</option>
+                            <option value="Arrowtown">Arrowtown</option>
+                            <option value="Mataura">Mataura</option>
+                            <option value="Mossburn">Mossburn</option>
+                            <option value="Riverton">Riverton</option>
+                            <option value="Nightcaps">Nightcaps</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Apply" />
+                </p>
+            </form>
+            <form asp-controller="ArtistDirectories" asp-action="Index">
+                <p>
+                    <input type="submit" value="Reset" />
+                </p>
+            </form>
+        </div>
+
+        <div class="col-md-9 col-md-offset-4">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4" style="padding-bottom:2%; text-align:center;">
+                    <a asp-action="Details" asp-route-id="@item.Id" style="height:100%; text-decoration:none; color:black; font-size:20px;">
+                        <img src="@Html.DisplayFor(modelItem => item.ProfilePic)" class="w3-border w3-padding-small" style="width:90%; height: 220px;">
+                        <br />
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </a>
+                </div>
+
+            }
+        </div>
+
+    </div>
+</div>
+<br /><br><br /><br /><br /><br />
+<div class="block"></div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+
+</script>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }</script>

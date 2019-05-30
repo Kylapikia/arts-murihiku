@@ -1,0 +1,24 @@
+﻿@model IEnumerable<AM1.Models.Photos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<hr />
+<a href='javascript:history.go(-1)'><h3 style="border:solid;padding:10px;text-align:center; width:10%;">Return</h3></a>
+<hr />
+<div class="container">
+    @if (Model.Count() == 0)
+    {
+        <h2>Sorry!</h2>
+        <h2>No photo available</h2>
+    }
+    else
+    {
+        @foreach (Photos photo in Model)
+        {
+            <div class="col-md-3" style="margin: 4%; height: 33vh">
+                <img src="@photo.FileFullPath" style="height:100%;width:100%;" />
+            </div>
+        }
+    }
+</div>
