@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>aspnet-AM1-9ECB41B7-28B8-4C7B-950E-EC5D6501C463</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.2" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\event\" />
+    <Folder Include="wwwroot\images\blog\" />
+    <Folder Include="wwwroot\images\gallery\" />
+    <Folder Include="wwwroot\images\profile\" />
+    <Folder Include="wwwroot\images\resources\registration\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Blogs\Placeholder.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>
