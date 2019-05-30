@@ -1,0 +1,28 @@
+﻿.mdtp__wrapper {
+    bottom: 50% !important;
+}
+
+#topbar {
+    background-color: black;
+    margin: 0;
+    margin-bottom: 1%;
+    padding: 0;
+    height: 10vh;
+    width: 100%;
+}
+
+#topbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+#topbar h1 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+#topbar a:hover {
+    text-decoration: underline;
+}

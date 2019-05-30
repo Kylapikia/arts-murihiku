@@ -1,0 +1,50 @@
+﻿.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px none rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+a {
+    position: relative;
+    display: inline-block
+}
+
+    a img {
+        height: 100px;
+        width: 250px;
+    }
+
+    a h2 {
+        padding-top: 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        background: #fff;
+        color: #000;
+        opacity: 0;
+        transition: 1s;
+    }
+
+    a:hover h2 {
+        opacity: 0.5;
+    }
+
+    a h2 {
+        opacity: 0; /* Completely invisible. */
+        transition: 1s; /* A 1 second transition. */
+    }
+
+    a:hover h2 {
+        opacity: 1; /* Completely visible. */
+    }

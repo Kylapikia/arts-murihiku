@@ -1,0 +1,94 @@
+﻿#right-panel {
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+    #right-panel select, #right-panel input {
+        font-size: 15px;
+    }
+
+    #right-panel select {
+        width: 100%;
+    }
+
+    #right-panel i {
+        font-size: 12px;
+    }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#contentdisplay {
+    padding: 1%;
+    height: 85%;
+    float: left;
+    width: 22%;
+    margin-left: 1%;
+    border: solid;
+    border-width: thin;
+}
+    #contentdisplay h2{
+        text-align:center;
+    }
+
+    #map {
+        height: 85%;
+        float: left;
+        width: 43%;
+        margin-left: 1%;
+        border: solid;
+        border-width: thin;
+    }
+
+#right-panel {
+    margin: 0;
+    margin-left:1%;
+    border: solid;
+    border-width: thin;
+    width: 16%;
+    height: 85%;
+    float: left;
+    text-align: left;
+    padding:1%;
+}
+
+#directions-panel {
+    padding: 1%;
+    overflow: scroll;
+    height: 85%;
+    float: right;
+    width: 14%;
+    background-color: white;
+    border: solid;
+    border-width: thin;
+    margin-right: 1%;
+}
+
+#topbar {
+    background-color: black;
+    margin: 0;
+    margin-bottom: 1%;
+    padding: 0;
+    height: 10vh;
+    width: 100%;
+}
+
+    #topbar a {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+    }
+
+    #topbar h1 {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+    }
+
+    #topbar a:hover {
+        text-decoration: underline;
+    }

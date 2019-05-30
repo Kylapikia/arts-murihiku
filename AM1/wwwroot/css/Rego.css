@@ -1,0 +1,25 @@
+﻿body{
+    background-image: url('/images/registration pic .jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    background-attachment: fixed;
+}
+.box {
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    padding: 25px;
+    display: block;
+    float: right;
+    margin-top: 120px;
+    color: white;
+    background-color: rgba(29, 22, 25, 0.90);
+}
+.button1 {
+    float: right;
+}
+.modal-body {
+    color: black;
+}
+

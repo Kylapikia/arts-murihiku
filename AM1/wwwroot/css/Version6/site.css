@@ -1,0 +1,283 @@
+﻿body {
+    padding-top: 50px;
+   
+    background-repeat: repeat;
+    background-color: #fcfcfc;
+    padding-bottom: 20px;
+}
+.block{
+    display:block;
+    clear:both;
+    margin: auto;
+}
+.Icon {
+    height: 42px;
+    width: 130px;
+}
+
+.Social {
+    height: 25px;
+    width: 25px;
+}
+.Associates {
+    height: 60px;
+    width: 225px;
+}
+.OverRide{
+    padding-left: -5%;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255, 0.9);
+    overflow-y: auto;
+    transition: 0.5s;
+}
+.contain {
+    position: relative;
+    width: 50%;
+}
+
+.imag {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overla {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 5s ease;
+    background-image: url("/images/nav logo.png");
+}
+
+.contain:hover .overla {
+    opacity: 1;
+}
+.modalFooter{
+    height: 50px;
+    width: 120px;
+}
+.contain:hover .imag {
+    opacity: 1;
+}
+.tex {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.fontBody{
+    font-family: 'Palatino Linotype';
+}
+.noPad{
+   margin-left: -12%;
+   margin-right: -12%;
+    padding-left: -10%;
+    padding-right: -10%;
+
+}
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+    .overlay a:hover, .overlay a:focus {
+        color: #000;
+    }
+
+.overlay .closebtn {
+    position: absolute;
+    top: 40px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
+    }
+
+        .overlay a {
+            font-size: 20px
+        }
+
+        .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+        }
+}
+.NavText{
+    font-size:18px;
+}
+.vl {
+    border-right: 6px solid #000;
+    height: 500px;
+    position: center;
+}
+
+.butto {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: solid;
+    border-color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 15px 40px!important;
+    font-size: 20px;
+   
+}
+.buttoDark {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: solid;
+    border-color: #000;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 15px 40px;
+    font-size: 20px;
+}
+.butto > hover {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: solid;
+    border-color: aqua;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 24px;
+    padding: 15px 32px;
+}
+.canvas {
+    background-image: url("/images/starry-sky-1269960_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Register {
+    background-image: url("/images/registration pic .jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Dir {
+    background-image: url("/images/direct.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Events {
+    background-image: url("/images/water tower.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.midText {
+ 
+    height: 200px;
+    width: 400px;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+.trail {
+    background-image: url("/images/southland scene.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.white{
+    color: white;
+}
+.blogpic{
+    height: 300px!important;
+    width: 300px!important; 
+}
+.white > hover{
+    color:white;
+}
+div.translucy {
+    background-color: white;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+
+}
+
+.homey {
+    background-image: url("/images/arts area.png") !important;
+    background-size: 100%, 100%!important;
+}
+.blacc{
+    color: black;
+}
+.noOverlap{
+    overflow: hidden;
+}
+.fc-scroller {
+    overflow-y: hidden !important;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+   padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
